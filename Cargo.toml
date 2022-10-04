@@ -1,0 +1,13 @@
+[package]
+name = "randotron"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+authors = [ "peter@membrey.hk" ]
+description = "Trivial little library that lets you randomly execute a closure with a sample rate"
+keywords = [ "random" ]
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+random-number = "0.1.7"
