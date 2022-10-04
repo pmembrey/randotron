@@ -7,6 +7,8 @@ authors = [ "peter@membrey.hk" ]
 description = "Trivial little library that lets you randomly execute a closure with a sample rate"
 keywords = [ "random" ]
 license = "MIT"
+repository = "https://github.com/pmembrey/randotron/"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

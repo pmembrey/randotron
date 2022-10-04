@@ -15,7 +15,7 @@ average. `675` would mean that the code would be executed on average once every 
 represent this value as a `float` such that 1% would be `0.01` rather than `100`. The approach in `randotron` uses `u64` rather than
 `f64`, to keep things simpler.
 
-## Return type
+## Evaluation result 
 `randotron` will evaluate to`Some(result)` (where `result` is what the closure would have evaluated to had it been executed independently)
 if the closure is chosen for execution. Otherwise `randotron` will evaluate to `None`.
 
